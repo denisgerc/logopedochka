@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>logopedochka</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script>
+		$(function () {
+			$("#includedOffer").load("_offer.html");
+			// $("#includedSpeechDisorders").load("_speech-disorders.html");
+		});
+	</script>
+	<script src="js/script.js"></script>
+
+</head>
+
+<body class="home">
+	<div id="page" class="site">
+		<div id="content" class="site-content fixed">
+			<div class="site-content-inner">
+				<div id="primary" class="content-area">
+					<main id="main" class="site-main">
+
+						<!-- SECTION OFFER -->
+						<div id="includedOffer"></div>
+
+						<!-- SECTION SPEECH DISORDER -->
+						<div class="section-block section-html section-preset--bgc-4">
+							<div class="section-block__header">
+								<div class="section-block__title">
+									<h2 class="home-title">Заголовок</h2>
+								</div>
+							</div>
+							<div class="section-html__body">
+
+								<!-- code -->
+
+								<div class="speech-disorders">
+
+									<div class="speech-disorders__media">
+										<img src="img/disorder.svg" alt="">
+									</div>
+
+									<div class="speech-disorders__tabs">
+
+										<div class="tabs-nav">
+											<div class="wp-block-button">
+												<a class="wp-block-button__link" href="#tab1">Tab 1</a>
+											</div>
+
+											<div class="wp-block-button">
+												<a class="wp-block-button__link" href="#tab2">Tab 2</a>
+											</div>
+
+											<div class="wp-block-button">
+												<a class="wp-block-button__link" href="#tab3">Tab 3</a>
+											</div>
+										</div>
+
+										<div class="tabs-contents">
+											<div class="tab-content" id="tab1">
+												<h2>Таб 1</h2>
+												<p>Первая вкладка</p>
+											</div>
+
+											<div class="tab-content" id="tab2">
+												<h2>Таб 2</h2>
+												<p>Вторая вкладка</p>
+											</div>
+
+											<div class="tab-content" id="tab3">
+												<h2>Таб 3</h2>
+												<p>Третья вкладка</p>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+
+
+
+
+
+								<!-- end code -->
+
+							</div><!-- section-html__body -->
+						</div><!-- section-block section-html -->
+
+					</main><!-- main -->
+				</div><!-- content-area -->
+			</div><!-- site-content-inner -->
+		</div><!-- site-content -->
+	</div><!-- site -->
+
+</body>
+
+</html>

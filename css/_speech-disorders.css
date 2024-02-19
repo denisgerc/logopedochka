@@ -1,0 +1,14 @@
+.speech-disorders {
+	display: flex;
+	justify-content: space-between;
+}
+
+.speech-disorders__tabs {
+	flex: 1 1 auto;
+	align-self: flex-start;
+}
+
+.speech-disorders__tabs {
+	display: flex;
+	gap: 20px;
+}

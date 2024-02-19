@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Amatic SC";
+	font-weight: 400;
+	font-style: normal;
+	src:
+		local("Amatic SC Regular"),
+		local("AmaticSC-Regular"),
+		url("Amaticscregular.woff2") format("woff2"),
+		url("Amaticscregular.woff") format("woff"),
+		url("Amaticscregular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Amatic SC";
+	font-weight: 700;
+	font-style: normal;
+	src:
+		local("Amatic SC Bold"),
+		local("AmaticSC-Bold"),
+		url("Amaticscbold.woff2") format("woff2"),
+		url("Amaticscbold.woff") format("woff"),
+		url("Amaticscbold.ttf") format("truetype");
+}
